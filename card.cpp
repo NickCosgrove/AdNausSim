@@ -1,5 +1,6 @@
 #include "card.h"
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -10,10 +11,14 @@ void Card::init(int x, string y){
 }
 
 int Card::getCMC(){
-	return CMC;
+	cout << CMC;
+
+	return 0;
 }
 
 
 string Card::getCardname(){
-	return cardname;
+	cout << cardname;
+
+	return 0;
 }
