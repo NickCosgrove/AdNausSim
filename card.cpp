@@ -4,6 +4,19 @@
 
 using namespace std;
 
+Card::Card(){
+	CMC = 0;
+
+	cardname = "card";
+}
+
+void Card::resetCard(){
+	CMC = 0;
+
+	cardname = "card";
+
+}
+
 void Card::init(int x, string y){
 	CMC = x;
 
@@ -11,14 +24,14 @@ void Card::init(int x, string y){
 }
 
 int Card::getCMC(){
-	cout << CMC;
+	//cout << CMC << endl;
 
-	return 0;
+	return CMC;
 }
 
 
 string Card::getCardname(){
-	cout << cardname;
+	//cout << cardname << endl;
 
-	return 0;
+	return cardname;
 }

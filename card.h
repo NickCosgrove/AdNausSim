@@ -11,7 +11,10 @@ class Card{
 
 	public:
 		
-		
+		Card();
+
+		void resetCard();
+
 		void init(int x, std::string y);
 		
 
